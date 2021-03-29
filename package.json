@@ -1,0 +1,26 @@
+{
+  "name" : "publishcommandtest2",
+  "version" : "0.0.1",
+  "enabled" : 1,
+  "description" : "Module for testing. This module is a test asset and not intended to be used with another purpose.",
+  "keywords" : [ "wTools" ],
+  "license" : "MIT",
+  "engine" : "node >= 10.0.0",
+  "author" : "Kostiantyn Wandalen <wanalen@01.school>",
+  "contributors" :
+  [
+    "Kostiantyn Wandalen <wanalen@01.school>",
+    "Dmytro Kryvoruchko <dm.vict.kr@gmail.com>"
+  ],
+  "scripts" : { "test" : "wtest .run proto/**", "docgen" : "wdocgen .build proto" },
+  "repository" : "git+https://github.com/wtools-bot/PublishCommandTest2.git",
+  "bugs" : "https://github.com/wtools-bot/PublishCommandTest2/issues",
+  "dependencies" :
+  {
+    "wTools" : "alpha",
+    "wCopyable" : "alpha",
+    "wBitmask" : "alpha",
+    "wConsequence" : "alpha"
+  },
+  "devDependencies" : { "publishcommandtest2" : "file:.", "wTesting" : "alpha", "eslint" : "7.1.0" }
+}

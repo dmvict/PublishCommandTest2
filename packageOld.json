@@ -1,0 +1,37 @@
+{
+  "name": "publishcommandtest2",
+  "version": "0.0.1",
+  "description": "Module for testing. This module is a test asset and not intended to be used with another purpose.",
+  "author": "Kostiantyn Wandalen <wanalen@01.school>",
+  "license": "MIT",
+  "main": "proto/wtools/amid/l3/stager/Stager.s",
+  "files": [
+    "proto/wtools/amid/l3",
+    "proto/wtools/Tools.s",
+    "out"
+  ],
+  "scripts": {
+    "test": "wtest .run 'proto/**' rapidity:-3",
+    "docgen": "wdocgen proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtools-bot/PublishCommandTest2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wtools-bot/PublishCommandTest2/issues"
+  },
+  "dependencies": {
+    "wTools": "alpha",
+    "wCopyable": "alpha",
+    "wBitmask": "alpha",
+    "wConsequence": "alpha"
+  },
+  "devDependencies": {
+    "eslint": "7.1.0",
+    "wTesting": "alpha"
+  },
+  "keywords": [
+    "wTools"
+  ]
+}
